@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <label for="fname">First Name : </label>
+        <input type="text" id="fname" name="fname" size="35">
+        <br><br>
+        <label for="lname">Last Name : </label>
+        <input type="text" id="lname" name="lname" size="35">
+        <br><br>
+        <label for="add">Address : </label>
+        <textarea name="add" id="add" cols="=35" rows="5"></textarea>
+        <br><br>
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="password">Password : </label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <label for="mob">Mobile no. : </label>
+        <input type="tel" id="mob" name="mob">
+        <br><br>
+        <label for="gender">Gender : </label><br>
+        <input type="radio" id="mob" name="mob">Male<br>
+        <input type="radio" id="mob" name="mob">Female<br>
+        <input type="radio" id="mob" name="mob">Others<br>
+        <br>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>COURSE</legend>
+        <label for="course"></label>
+        <input type="checkbox" id="course" name="course" value="CSS">CSS<br>
+        <input type="checkbox" id="course" name="course" value="JavaScript">JavaScript<br>
+        <input type="checkbox" id="course" name="course" value="DBMS">DBMS<br>
+        <input type="checkbox" id="course" name="course" value="DSA">DSA<br>
+        <input type="checkbox" id="course" name="course" value="Java">Java<br>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>RESIDENCE INFO</legend>
+        <label for="country">Country : </label>
+        <select id="contury" name="contury">
+            <option value="Not Selected" selected>Not Selected</option>
+            <option value="India">India</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Japan">Japan</option>
+            <option value="China">China</option>
+            <option value="Pakistan">Pakistan</option>
+        </select>
+        <br><br>
+        <label for="city">City : </label>
+        <select id="city" name="city">
+            <option value="Not Selected" selected>Not Selected</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Hydrabad">Hydrabad</option>
+            <option value="Manali">Manali</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Kkolkata">Kolkata</option>
+        </select>
+        <br><br>
+        <label for="state">State : </label>
+        <select id="state" name="state">
+            <option value="Not Selected" selected>Not Selected</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Goa">Goa</option>
+            <option value="Jammu Kashmir">Jammu Kashmir</option>
+            <option value="Karnatka">Karnatka</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="West Bangal">West Bangal</option>
+        </select>
+    </fieldset>
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>
