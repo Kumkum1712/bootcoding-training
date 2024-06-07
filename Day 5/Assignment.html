@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create HTML Form</title>
+</head>
+<body style="background-color: ghostwhite;">
+    <h1 align="center" style="color:whitesmoke;background-color: black;">FORM 1</h1>
+    <form style="background-color: ghostwhite;">
+    <fieldset style="background-color: beige;">
+        <legend><strong>PERSONAL INFO</strong></legend>
+        <label for="first name">First Name </label>
+        <input type="text" id="first name" name="first name" size="40">
+        <br><br>
+        <label for="last name">Last Name </label>
+        <input type="text" id="last name" name="last name" size="40">
+        <br><br>
+        <label for="mobile">Mobile No. </label>
+        <input type="tel" id="mobile" name="mobile">
+        <br><br>
+        <label for="email">Email ID </label>
+        <input type="email" id="email" name="email" size="50">
+        <br><br>
+        <label for="gender">Gender </label>
+        <br>
+        <input type="radio" id="gender" name="gender">Male<br>
+        <input type="radio" id="gender" name="gender">Female<br>
+        <input type="radio" id="gender" name="gender">Other<br>
+    </fieldset>
+    <br><br>
+    <fieldset style="background-color: beige;">
+        <legend><strong>RESIDENTIONAL INFO</strong></legend>
+        <label for="country">Coutry </label>
+        <select id="country" name="country">
+            <option value="Not Selected">Not Selected</option>
+            <option value="India">India</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Thailand">Thailand</option>
+            <option value="France">France</option>
+            <option value="South Korea">South Korea</option>
+        </select>
+        <br><br>
+        <label for="state">State </label>
+        <select id="state" name="state">
+            <option value="Not Selected">Not Selected</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Luzern">Luzern</option>
+            <option value="California">California</option>
+            <option value="Scotland">Scotland</option>
+            <option value="Nakhon Sawan">Nakhon Sawan</option>
+            <option value="Picardy">Picardy</option>
+            <option value="Gangwon State">Gangwon State</option>
+        </select>
+        <br><br>
+        <label for="PAddress">Permanent Address </label>
+        <textarea id="PAddress" name="PAddress" cols="40" rows="4"></textarea>
+        <br><br>
+        <label for="RAddress">Residence Address </label>
+        <textarea id="RAddress" name="RAddress" cols="40" rows="4"></textarea>
+        <br><br>
+        
+    </fieldset>
+    <br><br>
+    <fieldset style="background-color: beige;">
+        <legend><strong>OFFICIAL INFO</strong></legend>
+        <label for="company">Company Name </label>
+        <input type="text" id="company" name="company" size="50">
+        <br><br>
+        <label for="company address">Company Address </label>
+        <textarea id="company address" name="company address" cols="40" rows="4"></textarea>
+        <br><br>
+        <label for="contact">Contact No.  </label>
+        <input type="tel" id="contact" name="contact">
+    </fieldset>
+    <br><br>
+    <fieldset style="background-color: beige;">
+        <legend><strong>COURSE</strong></legend>
+        <label for="course">Courses you know </label>
+        <br>
+        <input type="checkbox" value="CSS" selected>CSS<br>
+        <input type="checkbox" value="HTML" selected>HTML<br>
+        <input type="checkbox" value="JavaScript" selected>JavaScript<br>
+        <input type="checkbox" value="DSA" selected>DSA<br>
+        <input type="checkbox" value="Java" selected>Java<br>
+        <input type="checkbox" value="DBMS" selected>DBMS<br>
+        <input type="checkbox" value="C language" selected>C language<br>
+        <input type="checkbox" value="OOP" selected>OOP<br>
+        <input type="checkbox" value="Python" selected>Python<br>
+    </fieldset>
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>
