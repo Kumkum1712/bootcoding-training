@@ -1,0 +1,14 @@
+body{
+    font-family: monospace;
+}
+.sample{
+    background-color: rgb(235, 201, 159);
+    border: 2px dashed maroon;
+    border-radius: 10px;
+}
+.para{
+    color: black;>
+}
+.sample>h1{
+    color: blueviolet;
+}
