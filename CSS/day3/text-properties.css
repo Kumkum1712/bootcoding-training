@@ -1,0 +1,54 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+/* Text Properties */
+.para{
+    text-indent: 10ch;
+    text-align: justify;
+}
+
+aside{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgrey;
+    text-align: justify;
+}
+
+nav{
+    display: block;
+}
+
+a:hover{
+    background-color: cornflowerblue;
+    font-size: x-large;
+    color: darkblue;
+}
+a:active{
+    background-color: black;
+    color: white;
+    font-size: small;
+}
+a:visited{
+    background-color: grey;
+    color: blueviolet;
+}
+a:focus{
+    color: rgb(125, 33, 79);
+}
+
+.word{
+    text-align: center;
+    font-style: oblique;
+    letter-spacing: 3px;
+    word-spacing: 2ch;
+    text-shadow: 2px 2px 2px powderblue;
+    background-color: antiquewhite;
+}
+.text{
+    font-size: 2rem;
+}
