@@ -77,6 +77,7 @@ nav:hover{
     display: flex;
 }
 .info{
+    font-size: 25px;
     align-content: center;
 }
 .info:hover{
@@ -121,6 +122,9 @@ a:hover{
     border-radius: 15px;
     height: 300px;
 }
+.cards:hover{
+    cursor: pointer;
+}
 .card-info{
     font-size: 20px;
     color:#F4F4F2;
@@ -135,15 +139,19 @@ a:hover{
     gap: 10px;
 }
 .options{
-    border-bottom: 1px solid rgb(227, 222, 222);
+    border-bottom: 1px solid #F4F4F2;
+    border: 1px solid #F4F4F2;
     background-color: #FFFFFF;
     margin: 10px auto;
     padding: 20px 250px;
-    width: 990px;
+    width: 1000px;
     display: flex;
     gap: 30px;
     position: sticky;
     top: 0;
+}
+button:hover{
+    cursor: pointer;
 }
 button{
     padding: 5px 20px;
@@ -151,13 +159,12 @@ button{
     border-radius: 5px;
     background-color: #FFFFFF;
 }
-/* .discount-img{
-    margin: 10px;
-    width: 10px;
-} */
  .discount{
     margin: 10px 200px;
     width: 1135px;
+ }
+ .discount-img:hover{
+    cursor: pointer;
  }
  .area-restaurant{
     margin: 10px 200px;
@@ -212,7 +219,7 @@ button{
     color: #FFFFFF;
     padding: 3px 5px;
     position: absolute;
-    top: 1480px;
+    top: 1470px;
     max-width: max-content;
  }
  .flat-discount-2{
@@ -220,6 +227,106 @@ button{
     color: #FFFFFF;
     padding: 3px 5px;
     position: absolute;
-    top: 1895px;
+    top: 1885px;
     max-width: max-content;
  }
+ .explore{
+    margin: 10px auto;
+    padding: 10px;
+    width: 1080px;
+    height: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+ .explore-opt{
+    font-size: 25px;
+    box-shadow: #F4F4F2;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #e8e8e4;
+    border-radius: 10px;
+ }
+ .explore-opt:hover{
+    cursor: pointer;
+ }
+ .tag{
+    display: flex;
+    gap: 10px;
+ }
+ .footer-head{
+    margin: 10px auto;
+    padding: 10px;
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .flag{
+    height: 25px;
+ }
+ .india{
+    width: 100px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+ }
+ .india:hover{
+    cursor: pointer;
+ }
+ .language{
+    width: 100px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+ }
+ .language:hover{
+    cursor: pointer;
+ }
+ .store-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.store-img:hover{
+    cursor: pointer;
+}
+.footer-list{
+    margin: 10px auto;
+    padding: 10px;
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 20px;
+}
+li{
+    color: grey;
+}
+li:hover{
+    cursor: pointer;
+    color: rgb(94, 91, 91);
+}
+.social-media{
+    font-size: 20px;
+}
+.social-logo{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.social-logo:hover{
+    cursor: pointer;
+}
