@@ -1,0 +1,130 @@
+body {
+    font-family: Roboto mono;
+    text-align: center;
+    margin: 10px 400px;
+    width: 750px;
+    height: 350px;
+  }
+  
+  #container{
+    border: 2px solid rgb(62,74,75);
+    border-radius: 10px;
+    background-color: rgb(218,188,255);
+  }
+
+  h1{
+    text-decoration: underline;
+  }
+
+  #expression-container {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(62,74,75);
+    border-radius: 10px;
+    background-color: rgb(229,208,255);
+    height: 70px;
+    padding: 10px 10px;
+  }
+  
+  #expression {
+    font-size: 28px;
+    font-weight: bold;
+  }
+ 
+  #user-answer {
+    background-color: rgb(193, 179, 208);
+    border: 2px solid rgb(62,74,75);
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 30px;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  button {
+    border-radius: 10px;
+    border: 1px solid #3E4A4B;
+    background-color: rgb(234, 249, 244);
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    margin: 50px;
+    cursor: pointer;
+  }
+  
+  #result-container {
+    margin: 50px;
+    border: 1px solid #3E4A4B;
+    border-radius: 10px;
+    background-color: rgb(232, 245, 245);
+  }
+  
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(37,19,66);
+  }
+
+  @media(max-width: 1100px){
+    body {
+      font-family: Roboto mono;
+      text-align: center;
+      margin: 10px auto;
+      width: 450px;
+    }
+
+    #expression-container {
+      margin-top: 40px;
+      margin-left: 60px;
+      margin-bottom: 20px;
+      border: 2px solid rgb(62,74,75);
+      border-radius: 10px;
+      background-color: rgb(229,208,255);
+      width: 300px;
+      height: 70px;
+      padding: 5px 10px;
+      text-align: center;
+    }
+    
+    #expression {
+      font-size: 28px;
+      font-weight: bold;
+    }
+   
+    #user-answer {
+      background-color: rgb(193, 179, 208);
+      border: 2px solid rgb(62,74,75);
+      border-radius: 10px;
+      padding: 10px;
+      width: 300px;
+      height: 30px;
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    button {
+      border-radius: 10px;
+      border: 1px solid #3E4A4B;
+      background-color: rgb(234, 249, 244);
+      width: 100px;
+      height: 30px;
+      font-size: 18px;
+      margin: 50px;
+      cursor: pointer;
+    }
+    
+    #result-container {
+      margin: 50px;
+      border: 1px solid #3E4A4B;
+      border-radius: 10px;
+      background-color: rgb(232, 245, 245);
+    }
+    
+    #result {
+      font-size: 22px;
+      font-weight: bold;
+    }
+  }
