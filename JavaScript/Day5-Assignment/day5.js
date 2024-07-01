@@ -55,15 +55,3 @@ switch(whether){
     default:
         console.log("Don't forget to switched off the lights while you are going outside the house.");
 }
-
-
-
-
-
-
-
-
-
-there is one url which has 3 part in it . first part shows the expression and in second part user enter the answer for that expression. if it is correct then correct msg will be popped up and if the answer will be wrong the correct answer will be showns on the screen . and in third part there will be two buttons one is submit which will work when user click the submit button and one is refresh button ,when user click the refresh button the expression will also refresh every time.
-
-write the code of this using HTML, JS and CSS
