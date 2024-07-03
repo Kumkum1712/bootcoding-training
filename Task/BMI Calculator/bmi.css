@@ -1,0 +1,51 @@
+.main{
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    left: 400px;
+    padding: 10px;
+}
+
+.screen{
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    left: 30px;
+    text-align: center;
+    align-content: center;
+    font-size: 150px;
+    font-weight: bold;
+    border: 2px solid black ;
+    border-radius: 10px;
+}
+
+.input-div{
+    width: 80%;
+    left: 60px;
+    position: absolute;
+    bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 18px;
+}
+
+.inputs{
+    width: 180px;
+    padding: 5px 10px;
+}
+
+.btn{
+    width: 90%;
+    padding: 18px;
+    font-weight: bold;
+    font-size: 26px;
+    background-color: rgb(203, 221, 227);
+    position: absolute;
+    bottom: 10px;
+    left: 35px;
+}
